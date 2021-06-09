@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+        <form>
+          <div class="container1">
+            <!-- Display current time -->
+            <div class="dispClock">
+                <div id="time"></div>
+            </div>
+        </div>
+        <div class="container2">
+            <!-- Display number control for user input -->
+            <div class="decrement">
+              <label for="decrement">Decrement by every second</label>
+              <input type="number"
+                min="0"
+                max="60"
+                step="1"
+                value={DECREMENT_BY_SECS}
+              ></input>
+            </div>
+            <div class="buttons">
+              <button onclick="ReverseClock(document.getElementById('DECREMENT_BY_SECS').value)">Submit</button>
+              <input type ="reset" value="Reset">
+            </div>  
+        </div>     
+        <script src="index.js"></script> 
+      </form>              
+    </body>
+</html>
