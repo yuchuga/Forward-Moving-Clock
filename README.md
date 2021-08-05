@@ -12,4 +12,4 @@
 ## Assumptions for Reverse Clock
 - The input range for DECREMENT_BY_SECS is valid between 1 and 60.
 - The number input control is used for DECREMENT_BY_SECS.
-- The value of DECREMENT_BY_SECS is pass into the function ReverseClock() to update currentTime or TimeNow (still thinking!)
+- The value of DECREMENT_BY_SECS is pass into the function ReverseClock() to update currentTime or TimeNow
